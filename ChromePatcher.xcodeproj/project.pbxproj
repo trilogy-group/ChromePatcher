@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3717D1C62A691336001E63CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3717D1C52A691336001E63CC /* main.m */; };
+		3717D1CE2A6913E3001E63CC /* ChromeObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3717D1CD2A6913E3001E63CC /* ChromeObserver.m */; };
+		3717D1D12A691A9F001E63CC /* ChromePatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3717D1D02A691A9F001E63CC /* ChromePatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		3717D1C22A691336001E63CC /* ChromePatcher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChromePatcher; sourceTree = BUILT_PRODUCTS_DIR; };
 		3717D1C52A691336001E63CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3717D1CC2A6913BE001E63CC /* ChromeObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChromeObserver.h; sourceTree = "<group>"; };
+		3717D1CD2A6913E3001E63CC /* ChromeObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChromeObserver.m; sourceTree = "<group>"; };
+		3717D1CF2A691A79001E63CC /* ChromePatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChromePatcher.h; sourceTree = "<group>"; };
+		3717D1D02A691A9F001E63CC /* ChromePatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChromePatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				3717D1C52A691336001E63CC /* main.m */,
+				3717D1CC2A6913BE001E63CC /* ChromeObserver.h */,
+				3717D1CD2A6913E3001E63CC /* ChromeObserver.m */,
+				3717D1CF2A691A79001E63CC /* ChromePatcher.h */,
+				3717D1D02A691A9F001E63CC /* ChromePatcher.m */,
 			);
 			path = ChromePatcher;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3717D1C62A691336001E63CC /* main.m in Sources */,
+				3717D1CE2A6913E3001E63CC /* ChromeObserver.m in Sources */,
+				3717D1D12A691A9F001E63CC /* ChromePatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
